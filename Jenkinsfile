@@ -2,19 +2,8 @@ pipeline {
     agent any  
     stages {  
             stage ('Build') {  
-                ...  
+             echo 'hello ayush'
             }  
-            stage ('Test') {  
-                ...  
-            }  
-            stage ('QA') {  
-                ...  
-            }  
-            stage ('Deploy') {  
-                ...  
-            }  
-            stage ('Monitor') {  
-                ...  
-            }  
+           
     }  
 }  
